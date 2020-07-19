@@ -30,9 +30,9 @@
         {
             this.iTalk_ThemeContainer1 = new iTalk.iTalk_ThemeContainer();
             this.iTalk_Label8 = new iTalk.iTalk_Label();
-            this.iTalk_TextBox_Small2 = new iTalk.iTalk_TextBox_Small();
+            this.txtCrianças = new iTalk.iTalk_TextBox_Small();
             this.iTalk_Label3 = new iTalk.iTalk_Label();
-            this.iTalk_TextBox_Small1 = new iTalk.iTalk_TextBox_Small();
+            this.txtMulheres = new iTalk.iTalk_TextBox_Small();
             this.arroz = new iTalk.iTalk_Label();
             this.iTalk_Label7 = new iTalk.iTalk_Label();
             this.linguica = new iTalk.iTalk_Label();
@@ -52,7 +52,7 @@
             this.lbCBSO = new iTalk.iTalk_Label();
             this.iTalk_Label2 = new iTalk.iTalk_Label();
             this.iTalk_Label1 = new iTalk.iTalk_Label();
-            this.txtPessoas = new iTalk.iTalk_TextBox_Small();
+            this.txtHomens = new iTalk.iTalk_TextBox_Small();
             this.iTalk_ThemeContainer1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,9 +60,9 @@
             // 
             this.iTalk_ThemeContainer1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
             this.iTalk_ThemeContainer1.Controls.Add(this.iTalk_Label8);
-            this.iTalk_ThemeContainer1.Controls.Add(this.iTalk_TextBox_Small2);
+            this.iTalk_ThemeContainer1.Controls.Add(this.txtCrianças);
             this.iTalk_ThemeContainer1.Controls.Add(this.iTalk_Label3);
-            this.iTalk_ThemeContainer1.Controls.Add(this.iTalk_TextBox_Small1);
+            this.iTalk_ThemeContainer1.Controls.Add(this.txtMulheres);
             this.iTalk_ThemeContainer1.Controls.Add(this.arroz);
             this.iTalk_ThemeContainer1.Controls.Add(this.iTalk_Label7);
             this.iTalk_ThemeContainer1.Controls.Add(this.linguica);
@@ -82,7 +82,7 @@
             this.iTalk_ThemeContainer1.Controls.Add(this.lbCBSO);
             this.iTalk_ThemeContainer1.Controls.Add(this.iTalk_Label2);
             this.iTalk_ThemeContainer1.Controls.Add(this.iTalk_Label1);
-            this.iTalk_ThemeContainer1.Controls.Add(this.txtPessoas);
+            this.iTalk_ThemeContainer1.Controls.Add(this.txtHomens);
             this.iTalk_ThemeContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.iTalk_ThemeContainer1.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.iTalk_ThemeContainer1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
@@ -108,20 +108,20 @@
             this.iTalk_Label8.TabIndex = 23;
             this.iTalk_Label8.Text = "Crianças:";
             // 
-            // iTalk_TextBox_Small2
+            // txtCrianças
             // 
-            this.iTalk_TextBox_Small2.BackColor = System.Drawing.Color.Transparent;
-            this.iTalk_TextBox_Small2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iTalk_TextBox_Small2.ForeColor = System.Drawing.Color.Black;
-            this.iTalk_TextBox_Small2.Location = new System.Drawing.Point(891, 62);
-            this.iTalk_TextBox_Small2.MaxLength = 32767;
-            this.iTalk_TextBox_Small2.Multiline = false;
-            this.iTalk_TextBox_Small2.Name = "iTalk_TextBox_Small2";
-            this.iTalk_TextBox_Small2.ReadOnly = false;
-            this.iTalk_TextBox_Small2.Size = new System.Drawing.Size(108, 29);
-            this.iTalk_TextBox_Small2.TabIndex = 22;
-            this.iTalk_TextBox_Small2.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
-            this.iTalk_TextBox_Small2.UseSystemPasswordChar = false;
+            this.txtCrianças.BackColor = System.Drawing.Color.Transparent;
+            this.txtCrianças.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCrianças.ForeColor = System.Drawing.Color.Black;
+            this.txtCrianças.Location = new System.Drawing.Point(891, 62);
+            this.txtCrianças.MaxLength = 32767;
+            this.txtCrianças.Multiline = false;
+            this.txtCrianças.Name = "txtCrianças";
+            this.txtCrianças.ReadOnly = false;
+            this.txtCrianças.Size = new System.Drawing.Size(108, 29);
+            this.txtCrianças.TabIndex = 22;
+            this.txtCrianças.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtCrianças.UseSystemPasswordChar = false;
             // 
             // iTalk_Label3
             // 
@@ -135,20 +135,20 @@
             this.iTalk_Label3.TabIndex = 21;
             this.iTalk_Label3.Text = "Mulheres:";
             // 
-            // iTalk_TextBox_Small1
+            // txtMulheres
             // 
-            this.iTalk_TextBox_Small1.BackColor = System.Drawing.Color.Transparent;
-            this.iTalk_TextBox_Small1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iTalk_TextBox_Small1.ForeColor = System.Drawing.Color.Black;
-            this.iTalk_TextBox_Small1.Location = new System.Drawing.Point(552, 62);
-            this.iTalk_TextBox_Small1.MaxLength = 32767;
-            this.iTalk_TextBox_Small1.Multiline = false;
-            this.iTalk_TextBox_Small1.Name = "iTalk_TextBox_Small1";
-            this.iTalk_TextBox_Small1.ReadOnly = false;
-            this.iTalk_TextBox_Small1.Size = new System.Drawing.Size(108, 29);
-            this.iTalk_TextBox_Small1.TabIndex = 20;
-            this.iTalk_TextBox_Small1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
-            this.iTalk_TextBox_Small1.UseSystemPasswordChar = false;
+            this.txtMulheres.BackColor = System.Drawing.Color.Transparent;
+            this.txtMulheres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMulheres.ForeColor = System.Drawing.Color.Black;
+            this.txtMulheres.Location = new System.Drawing.Point(552, 62);
+            this.txtMulheres.MaxLength = 32767;
+            this.txtMulheres.Multiline = false;
+            this.txtMulheres.Name = "txtMulheres";
+            this.txtMulheres.ReadOnly = false;
+            this.txtMulheres.Size = new System.Drawing.Size(108, 29);
+            this.txtMulheres.TabIndex = 20;
+            this.txtMulheres.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtMulheres.UseSystemPasswordChar = false;
             // 
             // arroz
             // 
@@ -377,20 +377,20 @@
             this.iTalk_Label1.TabIndex = 1;
             this.iTalk_Label1.Text = "Homens: ";
             // 
-            // txtPessoas
+            // txtHomens
             // 
-            this.txtPessoas.BackColor = System.Drawing.Color.Transparent;
-            this.txtPessoas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPessoas.ForeColor = System.Drawing.Color.Black;
-            this.txtPessoas.Location = new System.Drawing.Point(281, 62);
-            this.txtPessoas.MaxLength = 32767;
-            this.txtPessoas.Multiline = false;
-            this.txtPessoas.Name = "txtPessoas";
-            this.txtPessoas.ReadOnly = false;
-            this.txtPessoas.Size = new System.Drawing.Size(108, 29);
-            this.txtPessoas.TabIndex = 0;
-            this.txtPessoas.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtPessoas.UseSystemPasswordChar = false;
+            this.txtHomens.BackColor = System.Drawing.Color.Transparent;
+            this.txtHomens.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHomens.ForeColor = System.Drawing.Color.Black;
+            this.txtHomens.Location = new System.Drawing.Point(281, 62);
+            this.txtHomens.MaxLength = 32767;
+            this.txtHomens.Multiline = false;
+            this.txtHomens.Name = "txtHomens";
+            this.txtHomens.ReadOnly = false;
+            this.txtHomens.Size = new System.Drawing.Size(108, 29);
+            this.txtHomens.TabIndex = 0;
+            this.txtHomens.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtHomens.UseSystemPasswordChar = false;
             // 
             // frmCalculador
             // 
@@ -413,7 +413,7 @@
 
         private iTalk.iTalk_ThemeContainer iTalk_ThemeContainer1;
         private iTalk.iTalk_Label iTalk_Label1;
-        private iTalk.iTalk_TextBox_Small txtPessoas;
+        private iTalk.iTalk_TextBox_Small txtHomens;
         private iTalk.iTalk_Label iTalk_Label2;
         private iTalk.iTalk_Label lbCBSO;
         private iTalk.iTalk_Label lbTotal;
@@ -433,9 +433,9 @@
         private iTalk.iTalk_Label arroz;
         private iTalk.iTalk_Label iTalk_Label7;
         private iTalk.iTalk_Label iTalk_Label8;
-        private iTalk.iTalk_TextBox_Small iTalk_TextBox_Small2;
+        private iTalk.iTalk_TextBox_Small txtCrianças;
         private iTalk.iTalk_Label iTalk_Label3;
-        private iTalk.iTalk_TextBox_Small iTalk_TextBox_Small1;
+        private iTalk.iTalk_TextBox_Small txtMulheres;
     }
 }
 

@@ -15,10 +15,5 @@ namespace Projeto___Churrasco
         public double coracaodeFrango = 0.040;
         public double linguica = 0.090;
         public double arroz = 0.020;
-
-        public double totalHomem()
-        {
-            return CBCO + CBSO + carneSuina + frango + coracaodeFrango + linguica + arroz;
-        }
     }
 }

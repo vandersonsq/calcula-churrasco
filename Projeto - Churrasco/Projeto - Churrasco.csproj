@@ -46,20 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CarnesCriancas.cs" />
-    <Compile Include="CarnesHomens.cs" />
-    <Compile Include="CarnesMulheres.cs" />
-    <Compile Include="frmCalculador.cs">
+    <Compile Include="class\CarnesCriancas.cs" />
+    <Compile Include="class\CarnesHomens.cs" />
+    <Compile Include="class\CarnesMulheres.cs" />
+    <Compile Include="Telas\frmCalculador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCalculador.Designer.cs">
+    <Compile Include="Telas\frmCalculador.Designer.cs">
       <DependentUpon>frmCalculador.cs</DependentUpon>
     </Compile>
     <Compile Include="iTalk Theme.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TotalCarnes.cs" />
-    <EmbeddedResource Include="frmCalculador.resx">
+    <EmbeddedResource Include="Telas\frmCalculador.resx">
       <DependentUpon>frmCalculador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -84,5 +83,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
