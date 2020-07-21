@@ -14,6 +14,6 @@ namespace Projeto___Churrasco
         public double frango = 0.052;
         public double coracaodeFrango = 0.036;
         public double linguica = 0.048;
-        public double arroz = 0.018;
+        public double paodeAlho = 0.025;
     }
 }

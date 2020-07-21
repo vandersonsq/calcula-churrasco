@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.iTalk_ThemeContainer1 = new iTalk.iTalk_ThemeContainer();
+            this.iTalk_Button_21 = new iTalk.iTalk_Button_2();
             this.iTalk_Label8 = new iTalk.iTalk_Label();
             this.txtCrianças = new iTalk.iTalk_TextBox_Small();
             this.iTalk_Label3 = new iTalk.iTalk_Label();
@@ -59,6 +60,7 @@
             // iTalk_ThemeContainer1
             // 
             this.iTalk_ThemeContainer1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
+            this.iTalk_ThemeContainer1.Controls.Add(this.iTalk_Button_21);
             this.iTalk_ThemeContainer1.Controls.Add(this.iTalk_Label8);
             this.iTalk_ThemeContainer1.Controls.Add(this.txtCrianças);
             this.iTalk_ThemeContainer1.Controls.Add(this.iTalk_Label3);
@@ -87,6 +89,7 @@
             this.iTalk_ThemeContainer1.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.iTalk_ThemeContainer1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(142)))), ((int)(((byte)(142)))));
             this.iTalk_ThemeContainer1.Location = new System.Drawing.Point(0, 0);
+            this.iTalk_ThemeContainer1.MinimumSize = new System.Drawing.Size(126, 39);
             this.iTalk_ThemeContainer1.Name = "iTalk_ThemeContainer1";
             this.iTalk_ThemeContainer1.Padding = new System.Windows.Forms.Padding(3, 28, 3, 28);
             this.iTalk_ThemeContainer1.Sizable = true;
@@ -95,6 +98,23 @@
             this.iTalk_ThemeContainer1.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultLocation;
             this.iTalk_ThemeContainer1.TabIndex = 0;
             this.iTalk_ThemeContainer1.Text = "Barbecue Calculator";
+            this.iTalk_ThemeContainer1.Click += new System.EventHandler(this.iTalk_ThemeContainer1_Click);
+            // 
+            // iTalk_Button_21
+            // 
+            this.iTalk_Button_21.BackColor = System.Drawing.Color.Transparent;
+            this.iTalk_Button_21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.iTalk_Button_21.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iTalk_Button_21.ForeColor = System.Drawing.Color.White;
+            this.iTalk_Button_21.Image = null;
+            this.iTalk_Button_21.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iTalk_Button_21.Location = new System.Drawing.Point(1102, 0);
+            this.iTalk_Button_21.Name = "iTalk_Button_21";
+            this.iTalk_Button_21.Size = new System.Drawing.Size(26, 25);
+            this.iTalk_Button_21.TabIndex = 24;
+            this.iTalk_Button_21.Text = "X";
+            this.iTalk_Button_21.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.iTalk_Button_21.Click += new System.EventHandler(this.iTalk_Button_21_Click);
             // 
             // iTalk_Label8
             // 
@@ -120,6 +140,7 @@
             this.txtCrianças.ReadOnly = false;
             this.txtCrianças.Size = new System.Drawing.Size(108, 29);
             this.txtCrianças.TabIndex = 22;
+            this.txtCrianças.Text = "0";
             this.txtCrianças.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.txtCrianças.UseSystemPasswordChar = false;
             // 
@@ -147,6 +168,7 @@
             this.txtMulheres.ReadOnly = false;
             this.txtMulheres.Size = new System.Drawing.Size(108, 29);
             this.txtMulheres.TabIndex = 20;
+            this.txtMulheres.Text = "0";
             this.txtMulheres.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.txtMulheres.UseSystemPasswordChar = false;
             // 
@@ -168,11 +190,11 @@
             this.iTalk_Label7.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label7.ForeColor = System.Drawing.Color.Black;
-            this.iTalk_Label7.Location = new System.Drawing.Point(365, 486);
+            this.iTalk_Label7.Location = new System.Drawing.Point(480, 486);
             this.iTalk_Label7.Name = "iTalk_Label7";
-            this.iTalk_Label7.Size = new System.Drawing.Size(90, 25);
+            this.iTalk_Label7.Size = new System.Drawing.Size(165, 25);
             this.iTalk_Label7.TabIndex = 18;
-            this.iTalk_Label7.Text = "- Arroz:";
+            this.iTalk_Label7.Text = "PÃO DE ALHO";
             // 
             // linguica
             // 
@@ -192,11 +214,11 @@
             this.iTalk_Label12.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label12.ForeColor = System.Drawing.Color.Black;
-            this.iTalk_Label12.Location = new System.Drawing.Point(365, 445);
+            this.iTalk_Label12.Location = new System.Drawing.Point(524, 445);
             this.iTalk_Label12.Name = "iTalk_Label12";
-            this.iTalk_Label12.Size = new System.Drawing.Size(123, 25);
+            this.iTalk_Label12.Size = new System.Drawing.Size(117, 25);
             this.iTalk_Label12.TabIndex = 16;
-            this.iTalk_Label12.Text = "- Linguiça:";
+            this.iTalk_Label12.Text = "LINGUIÇA";
             // 
             // coracaozinho
             // 
@@ -216,11 +238,11 @@
             this.iTalk_Label10.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label10.ForeColor = System.Drawing.Color.Black;
-            this.iTalk_Label10.Location = new System.Drawing.Point(365, 402);
+            this.iTalk_Label10.Location = new System.Drawing.Point(452, 402);
             this.iTalk_Label10.Name = "iTalk_Label10";
-            this.iTalk_Label10.Size = new System.Drawing.Size(179, 25);
+            this.iTalk_Label10.Size = new System.Drawing.Size(193, 25);
             this.iTalk_Label10.TabIndex = 14;
-            this.iTalk_Label10.Text = "- Coraçãozinho:";
+            this.iTalk_Label10.Text = "CORAÇÃOZINHO";
             // 
             // frango
             // 
@@ -240,11 +262,11 @@
             this.frds.BackColor = System.Drawing.Color.Transparent;
             this.frds.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.frds.ForeColor = System.Drawing.Color.Black;
-            this.frds.Location = new System.Drawing.Point(365, 358);
+            this.frds.Location = new System.Drawing.Point(538, 358);
             this.frds.Name = "frds";
-            this.frds.Size = new System.Drawing.Size(108, 25);
+            this.frds.Size = new System.Drawing.Size(107, 25);
             this.frds.TabIndex = 12;
-            this.frds.Text = "- Frango:";
+            this.frds.Text = "FRANGO";
             // 
             // carneSuina
             // 
@@ -264,11 +286,11 @@
             this.iTalk_Label5.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label5.ForeColor = System.Drawing.Color.Black;
-            this.iTalk_Label5.Location = new System.Drawing.Point(365, 316);
+            this.iTalk_Label5.Location = new System.Drawing.Point(480, 316);
             this.iTalk_Label5.Name = "iTalk_Label5";
-            this.iTalk_Label5.Size = new System.Drawing.Size(161, 25);
+            this.iTalk_Label5.Size = new System.Drawing.Size(165, 25);
             this.iTalk_Label5.TabIndex = 10;
-            this.iTalk_Label5.Text = "- Carne suína:";
+            this.iTalk_Label5.Text = "CARNE SUÍNA";
             // 
             // iTalk_Separator1
             // 
@@ -335,11 +357,11 @@
             this.iTalk_Label4.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label4.ForeColor = System.Drawing.Color.Black;
-            this.iTalk_Label4.Location = new System.Drawing.Point(365, 276);
+            this.iTalk_Label4.Location = new System.Drawing.Point(326, 276);
             this.iTalk_Label4.Name = "iTalk_Label4";
-            this.iTalk_Label4.Size = new System.Drawing.Size(276, 25);
+            this.iTalk_Label4.Size = new System.Drawing.Size(319, 25);
             this.iTalk_Label4.TabIndex = 4;
-            this.iTalk_Label4.Text = "- Carne de boi com osso:";
+            this.iTalk_Label4.Text = "CARNE DE BOI (COM OSSO)";
             // 
             // lbCBSO
             // 
@@ -359,11 +381,11 @@
             this.iTalk_Label2.BackColor = System.Drawing.Color.Transparent;
             this.iTalk_Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iTalk_Label2.ForeColor = System.Drawing.Color.Black;
-            this.iTalk_Label2.Location = new System.Drawing.Point(365, 235);
+            this.iTalk_Label2.Location = new System.Drawing.Point(329, 235);
             this.iTalk_Label2.Name = "iTalk_Label2";
-            this.iTalk_Label2.Size = new System.Drawing.Size(276, 25);
+            this.iTalk_Label2.Size = new System.Drawing.Size(316, 25);
             this.iTalk_Label2.TabIndex = 2;
-            this.iTalk_Label2.Text = "- Carne de boi sem osso:";
+            this.iTalk_Label2.Text = "CARNE DE BOI (SEM OSSO)";
             // 
             // iTalk_Label1
             // 
@@ -389,8 +411,10 @@
             this.txtHomens.ReadOnly = false;
             this.txtHomens.Size = new System.Drawing.Size(108, 29);
             this.txtHomens.TabIndex = 0;
+            this.txtHomens.Text = "0";
             this.txtHomens.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.txtHomens.UseSystemPasswordChar = false;
+            this.txtHomens.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtHomens_KeyPress);
             // 
             // frmCalculador
             // 
@@ -401,7 +425,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimumSize = new System.Drawing.Size(126, 39);
             this.Name = "frmCalculador";
-            this.Text = "Barbecue Calculator";
+            this.Text = "iTalk_ThemeContainer2";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
             this.iTalk_ThemeContainer1.ResumeLayout(false);
             this.iTalk_ThemeContainer1.PerformLayout();
@@ -436,6 +460,7 @@
         private iTalk.iTalk_TextBox_Small txtCrianças;
         private iTalk.iTalk_Label iTalk_Label3;
         private iTalk.iTalk_TextBox_Small txtMulheres;
+        private iTalk.iTalk_Button_2 iTalk_Button_21;
     }
 }
 
