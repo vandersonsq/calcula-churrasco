@@ -35,13 +35,13 @@ namespace Projeto___Churrasco
                 int numeroCrianças = Convert.ToInt32(txtCrianças.Text);
                 int numeroMulheres = Convert.ToInt32(txtMulheres.Text);
 
-                cbsoFinal = (CarneCrianca.CBSO * numeroCrianças) + (CarneHomem.CBSO * numeroHomens) + (CarneMulher.CBSO * numeroMulheres);
-                cbcoFinal = (CarneCrianca.CBCO * numeroCrianças) + (CarneHomem.CBCO * numeroHomens) + (CarneMulher.CBCO * numeroMulheres);
-                carneSuinaFinal = (CarneCrianca.carneSuina * numeroCrianças) + (CarneHomem.carneSuina * numeroHomens) + (CarneMulher.carneSuina * numeroMulheres);
-                frangoFinal = (CarneCrianca.frango * numeroCrianças) + (CarneHomem.frango * numeroHomens) + (CarneMulher.frango * numeroMulheres);
-                coracaodeFrangoFinal = (CarneCrianca.coracaodeFrango * numeroCrianças) + (CarneHomem.coracaodeFrango * numeroHomens) + (CarneMulher.coracaodeFrango * numeroMulheres);
-                linguicaFinal = (CarneCrianca.linguica * numeroCrianças) + (CarneHomem.linguica * numeroHomens) + (CarneMulher.linguica * numeroMulheres);
-                paodeAlhoFinal = (CarneCrianca.paodeAlho * numeroCrianças) + (CarneHomem.paodeAlho * numeroHomens) + (CarneMulher.paodeAlho * numeroMulheres);
+                cbsoFinal = (CarneCrianca.CBSO1 * numeroCrianças) + (CarneHomem.CBSO1 * numeroHomens) + (CarneMulher.CBSO1 * numeroMulheres);
+                cbcoFinal = (CarneCrianca.CBCO1 * numeroCrianças) + (CarneHomem.CBCO1 * numeroHomens) + (CarneMulher.CBCO1 * numeroMulheres);
+                carneSuinaFinal = (CarneCrianca.CarneSuina * numeroCrianças) + (CarneHomem.CarneSuina * numeroHomens) + (CarneMulher.CarneSuina * numeroMulheres);
+                frangoFinal = (CarneCrianca.Frango * numeroCrianças) + (CarneHomem.Frango * numeroHomens) + (CarneMulher.Frango * numeroMulheres);
+                coracaodeFrangoFinal = (CarneCrianca.CoracaodeFrango * numeroCrianças) + (CarneHomem.CoracaodeFrango * numeroHomens) + (CarneMulher.CoracaodeFrango * numeroMulheres);
+                linguicaFinal = (CarneCrianca.Linguica * numeroCrianças) + (CarneHomem.Linguica * numeroHomens) + (CarneMulher.Linguica * numeroMulheres);
+                paodeAlhoFinal = (CarneCrianca.PaodeAlho * numeroCrianças) + (CarneHomem.PaodeAlho * numeroHomens) + (CarneMulher.PaodeAlho * numeroMulheres);
 
                 total = cbsoFinal + cbcoFinal + carneSuinaFinal + frangoFinal + coracaodeFrangoFinal + linguicaFinal + paodeAlhoFinal;
 

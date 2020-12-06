@@ -38,3 +38,13 @@ C:\Users\949343\Desktop\calcula-churrasco\Projeto - Churrasco\obj\Debug\Projeto 
 C:\Users\949343\Desktop\calcula-churrasco\Projeto - Churrasco\bin\Debug\Projeto - Churrasco.exe.config
 C:\Users\949343\Desktop\calcula-churrasco\Projeto - Churrasco\bin\Debug\Projeto - Churrasco.exe
 C:\Users\949343\Desktop\calcula-churrasco\Projeto - Churrasco\bin\Debug\Projeto - Churrasco.pdb
+C:\Users\Vanderson\Documents\GitHub\calcula-churrasco\Projeto - Churrasco\bin\Debug\Projeto - Churrasco.exe.config
+C:\Users\Vanderson\Documents\GitHub\calcula-churrasco\Projeto - Churrasco\bin\Debug\Projeto - Churrasco.exe
+C:\Users\Vanderson\Documents\GitHub\calcula-churrasco\Projeto - Churrasco\bin\Debug\Projeto - Churrasco.pdb
+C:\Users\Vanderson\Documents\GitHub\calcula-churrasco\Projeto - Churrasco\obj\Debug\Projeto - Churrasco.csprojAssemblyReference.cache
+C:\Users\Vanderson\Documents\GitHub\calcula-churrasco\Projeto - Churrasco\obj\Debug\Projeto___Churrasco.frmCalculador.resources
+C:\Users\Vanderson\Documents\GitHub\calcula-churrasco\Projeto - Churrasco\obj\Debug\Projeto___Churrasco.Properties.Resources.resources
+C:\Users\Vanderson\Documents\GitHub\calcula-churrasco\Projeto - Churrasco\obj\Debug\Projeto - Churrasco.csproj.GenerateResource.cache
+C:\Users\Vanderson\Documents\GitHub\calcula-churrasco\Projeto - Churrasco\obj\Debug\Projeto - Churrasco.csproj.CoreCompileInputs.cache
+C:\Users\Vanderson\Documents\GitHub\calcula-churrasco\Projeto - Churrasco\obj\Debug\Projeto - Churrasco.exe
+C:\Users\Vanderson\Documents\GitHub\calcula-churrasco\Projeto - Churrasco\obj\Debug\Projeto - Churrasco.pdb
